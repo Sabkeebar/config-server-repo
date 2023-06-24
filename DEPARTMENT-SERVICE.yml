@@ -1,5 +1,4 @@
 spring:
-  application:
   datasource:
     password: 1
     url: jdbc:postgresql://localhost:5432/department
