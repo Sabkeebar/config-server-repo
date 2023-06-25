@@ -4,6 +4,8 @@ spring:
     password: 1
     url: jdbc:postgresql://localhost:5432/employee
     username: postgres
+  boot:
+    message:userMessage
   jpa:
     hibernate:
       ddl-auto: update
