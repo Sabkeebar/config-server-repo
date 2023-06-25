@@ -4,7 +4,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/employee
     username: postgres
   boot:
-    message: user name
+    message: user name changed after rabbitmq
   jpa:
     hibernate:
       ddl-auto: update
