@@ -1,11 +1,10 @@
-
 spring:
   datasource:
     password: 1
     url: jdbc:postgresql://localhost:5432/employee
     username: postgres
   boot:
-    message:userMessage
+    message: user name
   jpa:
     hibernate:
       ddl-auto: update
